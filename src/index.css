@@ -1,0 +1,107 @@
+body{
+  background-color: rgb(39, 38, 38);
+}
+
+.to-do-list{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+h1{
+  font-size: 4rem;
+  color: white;
+}
+button {
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: rgb(120, 33, 33);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+
+.save-btn {
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: rgb(120, 33, 33);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.button-save:hover {
+  background-color: #45a049;  /* Darker green on hover */
+}
+
+
+.add-btn{
+  background-color: rgb(96, 153, 11);
+}
+.add-btn:hover{
+  background-color: rgb(204, 251, 132);
+}
+
+.delete-btn{
+  background-color: rgb(223, 70, 10);
+
+
+}
+.delete-btn:hover{
+  background-color: rgb(244, 118, 68);
+
+}
+
+.edit-btn{
+  background-color: rgb(102, 102, 242);
+ 
+
+}
+.edit-btn:hover{
+  background-color: rgb(51, 186, 227);
+}
+input[type='text']{
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid brown;
+  border-radius: 5px;
+  color: black
+}
+
+ol{
+  padding: 0;
+}
+li{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: white;
+  margin-bottom: 10px;
+  border: 3px solid grey;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.text{
+  flex: 1;
+
+}
+input[type='checkbox'] {
+  width: 25px;  
+  height: 25px;  
+  margin: 10px;
+}
+
+
+ol input [type = 'checkbox']{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  accent-color: purple;
+}
+
